@@ -1,5 +1,4 @@
-# AzureBootCamp2018
-Step By Step - Azure Bootcamp 2018 - MVC + Docker
+# Azure BootCamp 2018 - Lab ASP.NET Core MVC + Docker
 
 ### Verificar instalação do Docker
 
