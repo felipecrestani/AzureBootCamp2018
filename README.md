@@ -127,10 +127,42 @@ docker images
 
 ## Executar a Imagem
 
+Docker executa a imagem na porta 80
 ```
-## Docker roda na porta 80 a imagem
 docker run -d -p 8080:80 --name mvc [mvc]
 ```
+
+Acessar http://localhost:8080
+
+
+### Docker Hub
+
+O docker hub é um repositório de imagens da própria Docker, que permite qualquer um hospedar suas imagens.
+
+Criar o login em https://hub.docker.com
+
+Logar no repositório
+```
+docker login
+```
+
+Enviar imagem para Docker Hub
+```
+docker push felipecrestani/mvc
+```
+
+Acessar https://hub.docker.com
+
+### Deploy no Azure Container Instances
+
+Logar no https://portal.azure.com
+
+Criar um recurso do Azure Container Instances
+
+
+
+
+
 
 
 
