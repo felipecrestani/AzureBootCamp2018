@@ -153,11 +153,22 @@ docker push felipecrestani/mvc
 
 Acessar https://hub.docker.com
 
-### Deploy no Azure Container Instances
+## Deploy no Azure Container Instances
 
 Logar no https://portal.azure.com
 
 Criar um recurso do Azure Container Instances
+
+![](2018-04-07-00-25-18.png)
+
+Acessar o IP público do serviço
+
+![](2018-04-07-00-27-45.png)
+
+
+# Azure Bootcamp 2018 - Obrigado :)
+
+
 
 
 
